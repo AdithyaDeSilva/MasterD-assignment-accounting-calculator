@@ -115,6 +115,9 @@ input[type='number'] {
 	color: #ffffff;
 }
 
+.hide-item {
+	display: none;
+}
 
 select option {
     background-color: #073693;
