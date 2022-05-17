@@ -1,0 +1,124 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+}
+
+.body-container {
+	display: flex;
+}
+
+.flex-side {
+	width: 50vw;
+	height: 100vh;
+	display: flex;
+}
+
+/* Left */
+.gradient-container {
+	background: url(./img/Rectangle-2.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.left-side-items {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.img-logo {
+	height: 148px;
+	width: 198px;
+}
+.left-topic {
+	font-family: Helvetica;
+	font-size: 48px;
+	font-weight: 700;
+	line-height: 55px;
+	text-align: left;
+	color: #073693;
+}
+
+/* Right */
+#form {
+	display: block;
+	background-color: #e5e5e5;
+	padding: 50px;
+	position: relative;
+}
+
+.label {
+	font-family: 'Helvetica';
+	font-weight: 400;
+	font-size: 28px;
+	line-height: 32px;
+	color: #000000;
+}
+
+.input {
+	height: 50px;
+	width: 324px;
+	background: #c4c4c4;
+	border-radius: 9px;
+	border: none;
+	margin: 5px 20px;
+	padding: 0 30px;
+
+	font-family: Helvetica;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 23px;
+	text-align: left;
+    color: #000;
+
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+.depreciation-input-container {
+	position: absolute;
+	bottom: 120px;
+}
+
+/* Firefox */
+input[type='number'] {
+	-moz-appearance: textfield;
+}
+
+.drop-down-input {
+	margin-bottom: 100px;
+}
+#calculate {
+	position: absolute;
+	right: 100px;
+	bottom: 50px;
+	background: #073693;
+	height: 65px;
+	width: 300px;
+	border-radius: 20px;
+
+	font-family: Helvetica;
+	font-size: 28px;
+	font-weight: 700;
+	text-align: center;
+	color: #ffffff;
+}
+
+
+select option {
+    background-color: #073693;
+    color: #fff;
+    margin: 5px;
+    border: 0;
+}
